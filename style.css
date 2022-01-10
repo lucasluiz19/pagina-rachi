@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    height: 70px;
+    background-color: #ffffff;
+}
+.header_filha{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 135px 0px 135px;
+}
+.menu_nav{
+    margin-left: 45px;
+    text-decoration: none;    
+}
+
+.main{
+    display: flex;
+    flex: 1 ;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 90px;
+}
