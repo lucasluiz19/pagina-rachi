@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior:  smooth;
+    
+}
 body{
     display: flex;
     flex-direction: column;
@@ -11,6 +15,8 @@ body{
 }
 .header{
     display: flex;
+    position: fixed;
+    width: 100%;
     height: 70px;
     background-color: #ffffff;
 }
@@ -40,7 +46,6 @@ body{
 }
 #section1{
     display: flex;
-    width: 100%;
     height: 640px;
     background-color: #EFF8FF;
 
@@ -48,18 +53,19 @@ body{
 #section2{
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 476px;
 }
 #section3{
-    width: 100%;
+    display: flex;
     height: 475px;
     background-color: #EFF8FF;
 
+
 }
 #section4{
-    width: 100%;
-    height: 740px;
+    display: flex;
+    flex-direction: column;
+    height: 840px;
 }
 #section5{
     width: 100%;
@@ -111,7 +117,7 @@ body{
 .como_funciona{
     display: flex;
     justify-content: center;
-    margin-top: 56px;
+    margin-top: 65px;
     font-family: 'Sora';
     font-style: normal;
     font-size: 40px;
@@ -177,4 +183,133 @@ body{
     line-height: 26px;
     text-align: center;
     color: #6E7275;
+}
+.baixe{
+    display: flex;
+    align-items: center;
+    margin: 25px 135px 0 135px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.title_baixe{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+color: #293145;
+margin-bottom: 24px;
+}
+.text_baixe{
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6E7275;
+width: 444px;
+height: 78px ;
+margin-bottom: 36px;
+
+}
+#googelplay{
+    width: 165px;
+    height: 52px;
+    margin-right: 27px;
+}
+#applestore{
+    width: 165px;
+    height: 52px;
+}
+.nossos_planostxt{   
+    margin-top: 20px;
+    text-align: center;
+}
+
+#title_planos{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #293145;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+#planos_loren{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6E7275;
+    margin-bottom: 96px;
+}
+.planos{
+    display: flex;
+    gap: 30px;
+    margin: 0px 135px 130px 135px;
+    justify-content: center;
+    
+}
+.plano_cantos{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:370px ;
+    height:471px ;
+    background-color: #EFF8FF;
+}
+.plano_central{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:370px ;
+    height:471px ;
+    background-color: #293145;
+    margin: 0 30px 0 30px; 
+}
+.titulo_cantos{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #293145;
+    margin-bottom: 59px;
+}
+.titulo_centro{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+.valores_cantos{
+    display: flex;
+    justify-content: center;
+
+}
+.moeda{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px; 
+    color: #293145;
+}
+.valor{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #293145;
+
 }
