@@ -262,6 +262,8 @@ margin-bottom: 36px;
     width:370px ;
     height:471px ;
     background-color: #EFF8FF;
+    border-radius: 8px;
+    
 }
 .plano_central{
     text-align: center;
@@ -272,6 +274,7 @@ margin-bottom: 36px;
     height:471px ;
     background-color: #293145;
     margin: 0 30px 0 30px; 
+    border-radius: 8px;
 }
 .titulo_cantos{
     font-family: 'Sora';
@@ -294,7 +297,21 @@ margin-bottom: 36px;
 .valores_cantos{
     display: flex;
     justify-content: center;
+    margin-bottom: 47px;
+    
 
+}
+.valores_centro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+    font-family: 'Roboto';
+    font-style: normal;    
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-right: 3px;
+    
 }
 .moeda{
     font-family: 'Roboto';
@@ -311,5 +328,104 @@ margin-bottom: 36px;
     font-size: 50px;
     line-height: 59px;
     color: #293145;
+    margin-right: 3px;
+    
 
+}
+.mes_cantos{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #293145;
+   
+}
+.text_cantos{
+    align-self: center;
+    width: 300px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 25px;
+    color: #6E7275;
+    margin-bottom: 58px;
+}
+.botao_cantos{
+    width: 230px;
+    height: 43px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    background: #0F9AFE;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+}
+.botao_cantos:hover{
+    
+    background-color: rgb(0, 99, 180);
+}
+.botao_centro{
+    width: 164px;
+    height: 27px;
+    background: #0F9AFE;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 37px;
+
+}
+.botao_centro:hover{
+    background-color: rgb(10, 109, 190);
+}
+.moeda_centro{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.mes_centro{
+    font-family:  'Roboto';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-self: center;
+}
+.text_centro{
+    width: 300px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-self: center;
+    color: #DBDBDB;
+    margin-bottom: 58px;
+}
+.botao_assinar_centro{
+width: 230px;
+height: 43px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+background: #0F9AFE;
+box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+border-radius: 50px;
+border: none;
+}
+.botao_assinar_centro:hover{ 
+    background-color: rgb(0, 99, 180);
 }
