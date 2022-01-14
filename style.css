@@ -9,6 +9,7 @@ html{
     
 }
 body{
+    
     display: flex;
     flex-direction: column;
     
@@ -70,14 +71,18 @@ body{
     height: 840px;
 }
 #section5{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 382px;
     background-image: url(./assets/logo_contato.png) ;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .footer{
+    justify-content: center;
+    align-items: center;
     display: flex;
     color: #293145;
     height: 90px;
@@ -436,7 +441,77 @@ background: #0F9AFE;
 box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
 border-radius: 50px;
 border: none;
+margin-bottom: 28px;
 }
 .botao_assinar_centro:hover{ 
     background-color: rgb(0, 99, 180);
+}
+.contatos{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.contatos_text{
+    width: 528px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DBDBDB;
+    margin-bottom: 99px;
+
+}
+.form_email{
+    display: flex;
+}
+.email{
+    padding-bottom:10px ;
+    margin-right: 40px;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    width: 300px;
+    
+}
+.enviar{
+    width: 118px;
+    height: 38px;
+    background: #0F9AFE;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.enviar:hover{
+    background-color: rgb(0, 99, 180);
+}
+.rodape_text{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #293145;
 }
